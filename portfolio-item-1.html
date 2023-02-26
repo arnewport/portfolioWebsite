@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>simpleBlackjack</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!-- change css/all to css/brands later -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro" id="portfolio-intro">
+            <h1 class="section__title section__title--intro">
+                simple <strong>Blackjack</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Animated card game</p>
+            <a href="https://arnewport.github.io/simpleBlackjack/" target="_blank" rel="noopener noreferrer" class="intro__img"> <img src="img/portfolio-01.png" alt=""></a>
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p><a href="https://arnewport.github.io/simpleBlackjack/" target="_blank" rel="noopener noreferrer" class="portfolio__link">simpleBlackjack</a> is a browser based blackjack game written in HTML, CSS, and JS. It allows for hitting, standing, doubling, and splitting. All phases of the game are animated, including card dealing, card flipping, card shuffling, and a selection effect causing the card to hover. The animations make heavy use of Promises to ensure the timing of the animations is perfect.</p>
+            <a href="https://arnewport.github.io/simpleBlackjack/" target="_blank" rel="noopener noreferrer"> <img src="img/portfolio-01.png" alt=""></a>
+            <p>This is the third iteration of simpleBlackjack. The first was a terminal game written in Python; the second was a browser based game written in HTML, CSS, and JS, but it effectively looked like a terminal game. The final iteration added complex animations to the core of the second iteration.</p>
+            <p>Go ahead and give it a try by clicking any of the images or the hyperlink.</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:anewport@outlook.com" class="footer__link">anewport@outlook.com</a>
+            <a href="https://github.com/arnewport" class="footer__link">GitHub</a>
+        </footer>
+    </body>
+</html>
